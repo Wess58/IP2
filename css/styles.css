@@ -12,9 +12,8 @@
   text-align: center;
 }
 .row{
-  margin:-1em;
-  margin-top: 0em;
-  padding:-1em;
+  column-gap: none;
+  border-collapse: collapse;
 
 }
 ul{
@@ -30,6 +29,8 @@ ul{
 }
 .text1{
   font-size:30px;
+  font-family: monospace;
+  color: white;
   padding-bottom: 1em;
   padding-left: 3em;
   padding-top: 1em;
@@ -37,9 +38,14 @@ ul{
 }
 .text2{
   font-size: 30px;
+  font-family: monospace;
+  color:white;
   padding-bottom: 1em;
   padding-left: 3em;
   padding-top: 1em;
-  background-color:  #e74c3c;
+  background-color: #e74c3c;
 
+}
+#fastfood{
+  border-style: solid;
 }
