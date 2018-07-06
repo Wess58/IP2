@@ -1,0 +1,45 @@
+.img1{
+  height: 500px;
+  width: 100%;
+}
+.mid-image{
+  position: absolute;
+  margin-left: 40%;
+  margin-top: -27%;
+  font-size: 28px;
+  color: white;
+  font-family: serif;
+  text-align: center;
+}
+.row{
+  margin:-1em;
+  margin-top: 0em;
+  padding:-1em;
+
+}
+ul{
+  list-style-type: none;
+}
+#imgtext{
+  font-size: 30px;
+  color: white;
+  font-family: fantasy;
+  position: absolute;
+  bottom: 90px;
+  left:130px;
+}
+.text1{
+  font-size:30px;
+  padding-bottom: 1em;
+  padding-left: 3em;
+  padding-top: 1em;
+  background-color: #d6dbdf;
+}
+.text2{
+  font-size: 30px;
+  padding-bottom: 1em;
+  padding-left: 3em;
+  padding-top: 1em;
+  background-color:  #e74c3c;
+
+}
