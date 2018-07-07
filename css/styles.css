@@ -15,12 +15,25 @@
   column-gap: none;
   border-collapse: collapse;
   margin-bottom: 3em;
+  cursor: pointer;
+
+}
+#breakfast:hover{
+  opacity: 0.3;
+
+}
+#lunch:hover{
+  opacity: 0.3;
+
+}
+#dinner:hover{
+  opacity: 0.3;
 
 }
 ul{
   list-style-type: none;
 }
-#imgtext{
+.imgtext{
   font-size: 30px;
   color: white;
   font-family: fantasy;
@@ -57,6 +70,7 @@ ul{
 #drinks{
   border-style: solid;
   border-color: #FFFFFF;
-  border-width: 20px;
+  border-width: 23px;
   box-shadow: 0 0 10px 10px #F2F2F2;
+
 }
