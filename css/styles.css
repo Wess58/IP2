@@ -100,3 +100,15 @@ h2{
 h4{
   font-family: serif;
 }
+.img2{
+  width: 100%;
+  height:500px;
+}
+.active{
+margin-bottom: -100px;
+background-color: black;
+color: white;
+}
+#btn1{
+  
+}
