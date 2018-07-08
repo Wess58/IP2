@@ -120,7 +120,7 @@ h4{
 .img2{
   width: 101.49%;
   height:500px;
-  margin-bottom: 10em;
+  margin-bottom: 14em;
 }
 .active{
 margin-bottom: -100px;
@@ -169,18 +169,15 @@ color: white;
 
 
 }
-.row2{
-  column-rule-style: solid;
-  column-rule-color: black;
+.container.cont1{
+  margin-bottom: 6em;
 
 }
-.customers{
-  margin-left: 5em;
-}
-
-
 .h3text{
   color:#F15A29;
   font-family: serif;
   font-size: 30px;
+}
+.img3{
+  width:101.49%;
 }
