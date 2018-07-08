@@ -180,4 +180,22 @@ color: white;
 }
 .img3{
   width:101.49%;
+
+}
+
+.email{
+  margin-left: 35%;
+  margin-top:-15%;
+  color: white;
+}
+
+#inputfield{
+  opacity: 0.5;
+  width: 300px;
+}
+.btn.btn-email{
+  background-color: #F15A29;
+  color: white;
+  font-family: serif;
+
 }
