@@ -120,7 +120,7 @@ h4{
 .img2{
   width: 101.49%;
   height:500px;
-  margin-bottom: 14em;
+  margin-bottom: 10em;
 }
 .active{
 margin-bottom: -100px;
@@ -129,8 +129,18 @@ color: white;
 }
 .row.row1{
   margin-left: 20%;
-  margin-top: -25%;
+  margin-top: -60%;
   font-size: 30px;
+
+}
+.row2-text{
+  color: #F15A29;
+  font-family:;
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  bottom: -15px;
+  left:100px;
 
 
 }
@@ -171,6 +181,12 @@ color: white;
 }
 .container.cont1{
   margin-bottom: 6em;
+  margin-top: 15%;
+
+}
+.col-md-4{
+  background-color: white;
+  padding: 3em;
 
 }
 .h3text{
@@ -204,6 +220,7 @@ color: white;
   width: 101.49%;
   margin-top: 4.5em;
   padding-bottom: 9em;
+
 }
 .footer-bkgrnd{
   margin-top: -27%;
@@ -218,4 +235,5 @@ color: white;
 }
 #menu2{
   margin-top: 3em;
+  color: white;
 }
