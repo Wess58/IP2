@@ -164,6 +164,7 @@ color: white;
   box-shadow: 0 0 6px 6px lightgrey;
   column-rule-style: solid;
   column-rule-color: black;
+  height: 250px;
 
 
 
@@ -173,6 +174,13 @@ color: white;
   column-rule-color: black;
 
 }
+.customers{
+  margin-left: 5em;
+}
 
 
-.
+.h3text{
+  color:#F15A29;
+  font-family: serif;
+  font-size: 30px;
+}
