@@ -1,239 +1,383 @@
-.img1{
-  height: 500px;
-  width: 101.49%;
+body {
+  margin: 0;
+  padding: 0;
 }
-.mid-image{
-  position: absolute;
-  margin-left: 40%;
-  margin-top: -27%;
-  font-size: 28px;
-  color: white;
-  font-family: serif;
+
+.logoPosition {
+  height: 80vh;
+  padding-top: 5%;
+  margin-bottom: 2%;
   text-align: center;
-}
-.row{
-  margin-bottom: 3em;
-
-}
-#breakfast{
-  width:410px;
-  height:86%;
-
-}
-#breakfast:hover{
-  opacity: 0.3;
-  cursor: pointer;
-
-}
-#lunch{
-  width:410px;
-  height:86%;
-
-}
-#lunch:hover{
-  opacity: 0.3;
-  cursor: pointer;
-
-}
-#dinner{
-  width:400px;
-  height:86%;
-
-}
-#dinner:hover{
-  opacity: 0.3;
-  cursor: pointer;
-
-}
-ul{
-  list-style-type: none;
-
-}
-.imgtext{
+  color: #fff;
+  font-family: 'Bitter', serif;
   font-size: 30px;
-  color: white;
-  font-family: serif;
+  background-image: url(/home/wess/Documents/moringaschool/prep/IP2/assets/backgrounds/landing.jpg);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#MENU {
+  position: fixed;
+}
+
+/* OVERLAY MENU */
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
   position: absolute;
-  bottom: 90px;
-  left:130px;
-
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
 }
-.text1{
-  font-size:30px;
-  font-family: serif;
-  color: #566573;
-  padding-bottom: 0.9em;
-  padding-left: 3em;
-  padding-top: 1em;
-  margin-right: -1em;
-  margin-left: -1em;
-  background-color: #f1f1f1;
 
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 20px
+  }
+
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
 }
-.text1:hover{
-  color:white;
-  background-color: #F15A29;
-  text-decoration: none;
+
+/* OVERLAY MENU END */
+.foodTop .row {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 5%;
   cursor: pointer;
-
 }
-.text2{
+
+.foodTop .row .col-md-3 img {
+  width: 100%;
+  border-radius: 5px;
+  transition: all .4s;
+}
+
+.foodTop .row .col-md-3 img:hover {
+  opacity: 1;
+  box-shadow: 0 5px 20px 5px rgba(0, 0, 0, 0.5);
+}
+
+.foodTop .row .col-md-3 p {
+  color: #fff;
+  font-family: 'Lobster', cursive;
   font-size: 30px;
-  font-family: serif;
-  color: #566573;
-  padding-bottom: 1.15em;
-  padding-left: 3em;
-  padding-top: 1em;
-  margin-right: -1em;
-  margin-left: -1em;
-  background-color: #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
+.orangeHover {
+  width: 100%;
+  height: 50%;
+  background-image: linear-gradient(315deg, #D35400 10%, #fff 10%, #fff 20%, #D35400 20%, #D35400 30%, #fff 30%);
+  font-family: 'Bitter', serif;
+  color: #000 !important;
+  text-align: center;
+  padding-top: 10% !important;
+  margin: 0;
+  transition: all .4s;
+  border: 2px solid;
 }
-.text2:hover{
-  color:white;
-  background-color: #F15A29;
-  text-decoration: none;
-  cursor: pointer;
 
+.orangeHover:hover {
+  color: #D35400 !important;
 }
-#fastfood{
-  border-style: solid;
-  border-color: #FFFFFF;
-  border-width: 20px;
-  box-shadow: 0 0 10px 10px #F2F2F2;
-  margin-bottom: 5em;
 
+.fastFood, .Drinks {
+  margin-bottom: 5%;
 }
-#drinks{
-  border-style: solid;
-  border-color: #FFFFFF;
-  border-width: 23px;
-  box-shadow: 0 0 10px 10px #F2F2F2;
 
+.fastFood h2 {
+  font-family: 'Bitter', serif;
+  text-decoration: underline;
 }
-h2{
-  font-family: serif;
-}
-h4{
-  font-family: serif;
-}
-.img2{
-  width: 101.49%;
-  height:500px;
-  margin-bottom: 10em;
-}
-.active{
-margin-bottom: -100px;
-background-color: black;
-color: white;
-}
-.row.row1{
-  margin-left: 20%;
-  margin-top: -60%;
-  font-size: 30px;
 
+.fastFood h3 {
+  font-family: 'Bitter', serif;
 }
-.row2-text{
-  color: #F15A29;
-  font-family:;
+
+.Drinks h2 {
+  font-family: 'Bitter', serif;
+  text-decoration: underline;
+}
+
+.Drinks h3 {
+  font-family: 'Bitter', serif;
+}
+
+.fastFood img {
+  margin: 10px;
+  border-radius: 5px;
+  transition: all .4s;
+}
+
+.fastFood img:hover {
+  margin-top: 7px;
+  box-shadow: 0 10px 20px 5px rgba(0, 0, 0, 0.8);
+}
+
+.Drinks img {
+  margin: 10px;
+  border-radius: 5px;
+  transition: all .4s;
+}
+
+.Drinks img:hover {
+  margin-top: 7px;
+  box-shadow: 0 10px 20px 5px rgba(0, 0, 0, 0.8);
+}
+
+.burgers {
+  height: 60vh;
+  background-image: url(/home/wess/Documents/moringaschool/prep/IP2/assets/backgrounds/foodsBg.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: contain;
+  background-attachment: fixed;
+  margin-bottom: 10% !important;
+  margin: 0;
+  padding: 0;
+}
+
+.burgersCont {
+  background-color: #fff;
+  border-radius: 5px;
+  height: 50vh;
+}
+
+#left {
   font-size: 20px;
+  margin: 20px;
+}
+
+#right {
+  font-size: 20px;
+  margin: 20px;
+}
+
+.burgersCont .Tabs .col-md-3 {
+  text-align: center;
+  font-family: 'Bitter', serif;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid #000;
+}
+
+.burgersCont .Tabs .col-md-3:hover {
+  color: #D35400;
+}
+
+.burgersCont .col-md-4 {
+  margin-top: 3% !important;
+  margin: 0;
+  font-family: 'Bitter', serif;
   font-weight: bold;
-  position: absolute;
-  bottom: -15px;
-  left:100px;
-
-
+  text-align: center;
+  color: #D35400;
 }
-#btn1{
-  background-color: #566573;
-  padding:0.1em;
 
-
+.burgersCont .col-md-4 img {
+  width: 70%;
+  margin-bottom: 5%;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.5);
 }
-#btn2{
-  background-color: #566573;
-  padding:0.1em;
 
-
+.customers {
+  height: 80vh;
+  background-image: url(/home/wess/Documents/moringaschool/prep/IP2/assets/backgrounds/subscribe.jpg);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
-#btn3{
-  background-color: #566573;
-  padding:0.1em;
 
-
+.customerRow {
+  background-color: #fff;
+  text-align: center;
+  padding: 5%;
+  margin-bottom: 10%;
+  border-radius: 5px;
 }
-#btn4{
-  background-color: #566573;
-  padding:0.1em;
 
+.customerRow h2 {
+  font-family: 'Bitter', serif;
+  color: #D35400;
 }
-.cont1{
-  border-style: solid;
-  border-color: #FFFFFF;
-  border-width: 23px;
-  box-shadow: 0 0 6px 6px lightgrey;
-  column-rule-style: solid;
-  column-rule-color: black;
-  height: 250px;
 
-
-
+.customerRow h5 {
+  font-family: 'Bitter', serif;
+  font-weight: bolder;
 }
-.container.cont1{
-  margin-bottom: 6em;
-  margin-top: 15%;
 
-}
-.col-md-4{
-  background-color: white;
-  padding: 3em;
-
-}
-.h3text{
-  color:#F15A29;
-  font-family: serif;
+.customerRow span {
+  margin: 20%;
   font-size: 30px;
-}
-.img3{
-  width:101.49%;
-
+  color: #D35400;
+  cursor: pointer;
 }
 
-.email{
-  margin-left: 35%;
-  margin-top:-12%;
-  color: white;
+.contact p {
+  text-align: center;
+  color: #fff;
+  font-family: 'Bitter', serif;
+  font-size: 20px;
 }
 
-#inputfield{
-  opacity: 0.5;
-  width: 300px;
+.contact input {
+  width: 60%;
+  opacity: 0.6;
+  color: #000;
+  border-radius: 5px;
+  margin: 2%;
+  padding: 5px;
+  outline: none;
 }
-.btn.btn-email{
-  background-color: #F15A29;
-  color: white;
-  font-family: serif;
 
+.footer {
+  background-image: url(/home/wess/Documents/moringaschool/prep/IP2/assets/F15A29.png);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: contain;
+  background-attachment: fixed;
 }
-.img4{
-  height:450px;
-  width: 101.49%;
-  margin-top: 4.5em;
-  padding-bottom: 9em;
 
+.footer .container {
+  padding-top: 2%;
 }
-.footer-bkgrnd{
-  margin-top: -27%;
-  margin-left: 40%;
-  font-family: serif;
+
+.footer h2 {
+  font-family: 'Bitter', serif;
+  color: #fff;
 }
-#menu{
-  color: white;
-  margin-left: 8%;
-  margin-top: -4%;
-  margin-bottom: 3%;
+
+.footer img {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
 }
-#menu2{
-  margin-top: 3em;
-  color: white;
+
+.footer p {
+  text-align: center;
+  color: #fff;
+  font-family: 'Bitter', serif;
+}
+
+/* SWING ANIMATION */
+@-webkit-keyframes swing {
+  15% {
+    -webkit-transform: translateX(5px);
+    transform: translateX(5px);
+  }
+
+  30% {
+    -webkit-transform: translateX(-5px);
+    transform: translateX(-5px);
+  }
+
+  50% {
+    -webkit-transform: translateX(3px);
+    transform: translateX(3px);
+  }
+
+  65% {
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+  }
+
+  80% {
+    -webkit-transform: translateX(2px);
+    transform: translateX(2px);
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@keyframes swing {
+  15% {
+    -webkit-transform: translateX(5px);
+    transform: translateX(5px);
+  }
+
+  30% {
+    -webkit-transform: translateX(-5px);
+    transform: translateX(-5px);
+  }
+
+  50% {
+    -webkit-transform: translateX(3px);
+    transform: translateX(3px);
+  }
+
+  65% {
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+  }
+
+  80% {
+    -webkit-transform: translateX(2px);
+    transform: translateX(2px);
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+#LOGO:hover {
+  -webkit-animation: swing 1s ease;
+  animation: swing 1s ease;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
 }
