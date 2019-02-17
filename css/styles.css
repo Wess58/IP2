@@ -11,7 +11,7 @@ body {
   color: #fff;
   font-family: 'Bitter', serif;
   font-size: 30px;
-  background-image: url(/assets/backgrounds/landing.jpg);
+  background-image: url(../assets/backgrounds/landing.jpg);
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
