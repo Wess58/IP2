@@ -11,7 +11,7 @@ body {
   color: #fff;
   font-family: 'Bitter', serif;
   font-size: 30px;
-  background-image: url(../assets/backgrounds/landing.jpg);
+  background: url('../assets/backgrounds/landing.jpg');
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -171,7 +171,7 @@ body {
 
 .burgers {
   height: 60vh;
-  background-image: url(assets/backgrounds/foodsBg.jpg);
+  background: url('..assets/backgrounds/foodsBg.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -228,7 +228,7 @@ body {
 
 .customers {
   height: 80vh;
-  background-image: url(assets/backgrounds/subscribe.jpg);
+  background: url('..assets/backgrounds/subscribe.jpg');
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -281,7 +281,7 @@ body {
 }
 
 .footer {
-  background-image: url(assets/F15A29.png);
+  background: url('..assets/F15A29.png');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
